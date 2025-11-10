@@ -1,0 +1,62 @@
+h1{
+  color: goldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+summary {
+  color: lightcoral;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: x-large;
+}
+
+
+li {
+  color: lightpink;
+  font-size: large;
+
+}
+.Serving {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: coral;
+}
+
+.Stove {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: coral;
+}
+
+
+.Steps {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darksalmon;
+  text-align: justify;
+  max-width: 60%;
+  font-size: larger;
+}
+
+
+.Microwave {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: crimson;
+}
+
+
+.layout {
+  width: 50%;
+
+  display: flex;
+  gap: 16px;
+}
+
+
+.Video {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: firebrick;
+}
+
+
+.MicrowaveInstructions {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: palevioletred;
+}
