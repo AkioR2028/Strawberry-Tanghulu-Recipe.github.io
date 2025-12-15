@@ -60,3 +60,35 @@ li {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: palevioletred;
 }
+
+button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkorchid;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: orchid;
+}
+
+.dark {
+  background-color: #222;
+}
+
+.dark h1 {
+  color:gold;
+
+}
+.dark h2 {
+  color:lightpink;
+}
+
+.dark p
+.dark li,
+.dark summary {
+  color:peachpuff;
+}
+
+.dark button {
+  color:violet;
+}
