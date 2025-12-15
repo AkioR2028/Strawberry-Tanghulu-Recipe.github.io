@@ -2,12 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Strawberry Tanghulu Recipe</title>
+    <title>Tanghulu Recipe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="tanghulu.js" defer></script>
   </head>
   <body>
 
-    <h1>How to Make Strawberry Tanghulu</h1>
+
+    <button onclick="darkmode()">Click to Change to Toggle Dark Mode</button>
+
+    <input
+     type = "number"
+     id = "theirInput"
+     oninput = "updateServing()"
+     placeholder = "Enter Serving Size">
+    <p id="3" class = "Steps" ></p>
+
+    <h2>Pick Your Preferred Fruit Choice</h2>
+    <select id="4" onchange = "fruitchoice()">
+      <option value="Strawberries">Strawberries (Default) </option>
+      <option value="Grapes">Grapes </option>
+      <option value="Hawthorn">Hawthorn </option>
+    </select>
+
+    <p id="5" class = "Steps" ></p>
+
+
+
+
+
+    <h1>How to Make Tanghulu</h1>
     <img src="https://sparklecakerie.com/wp-content/uploads/2025/08/Strawberry-Tanghulu-Feature.jpg" height = 600px>
 
     <p class = "Serving">Serving size 4-5 skewers</p>
@@ -37,7 +61,7 @@
         <section class="layout">
         <div>
           <p class = "Steps">
-            To start, start boiling 1 cup of white granulated sugar and 1/2 cup of water
+            To start, boil 1 cup of white granulated sugar and 1/2 cup of water
           </p>
         </div>
           <img src="https://thekitchenprepblog.com/wp-content/uploads/2022/01/Tanghulu-Recipe-Process-2-768x1024.jpg" width=300px>
@@ -68,7 +92,7 @@
           <section class="layout">
             <div>
               <p class = "Steps">
-                Occasionally stir the sugar and water mixture to prevent clumping and burning of the mixture. Continue stirring it until it reaches an internal temperature of ~300-310 degrees farenheit (using a candy thermometer is recommended. However, if you do not have one, you can perform the "cold water test" where you dip a spoonful into the ice bath, and if it instantly hardens, then the sugar is ready)
+                Occasionally stir the sugar and water mixture to prevent clumping and burning of the mixture. Continue stirring it until it reaches an internal temperature of ~300-310 degrees fahrenheit (using a candy thermometer is recommended. However, if you do not have one, you can perform the "cold water test" where you dip a spoonful into the ice bath, and if it instantly hardens, then the sugar is ready)
               </p>
             </div>
               <img src="https://www.allrecipes.com/thmb/9biu4rQhgzkQMHH3L1syO8i0Gww=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-20216-simple-syrup-ddmfs-step3-3x4-6a26400834724d13a684b88641464cdf.jpg" height=300px>
@@ -109,7 +133,7 @@
       <ol class = "Steps">
         <li>Use the same ingredients used in step 1 of the Stovetop Method</li>
         <li>Make sure the sugar/water mixture is in a microwave-safe container or bowl</li>
-        <li>Microwave in 30 second intervals to ensure it doesn't burn (may need to be microwaved over 5 times)</li>
+        <li>Microwave in 30-second intervals to ensure it doesn't burn (may need to be microwaved over 5 times)</li>
         <li>Follow Stovetop step 4</li>
         <li>Follow Stovetop step 5</li>
         <li>Follow Stovetop step 6</li>
